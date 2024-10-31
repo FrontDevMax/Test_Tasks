@@ -62,7 +62,7 @@ public class GeneratePassword {
         boolean isAnswer = false;
         String userChoose = "";
         while(!isAnswer) {
-            System.out.print("\nПродолжим игру?(да/нет): ");
+            System.out.print("\nПродолжим генерировать?(да/нет): ");
             userChoose = sc.next();
             if(userChoose.equalsIgnoreCase("да") || userChoose.equalsIgnoreCase("нет")) {
                 isAnswer = true;
