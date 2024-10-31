@@ -91,7 +91,7 @@ public class ExchangeRate {
         boolean isAnswer = false;
         String userChoose = "";
         while(!isAnswer) {
-            System.out.print("\nПродолжим игру?(да/нет): ");
+            System.out.print("\nПродолжим конвертировать?(да/нет): ");
             userChoose = sc.next();
             if(userChoose.equalsIgnoreCase("да") || userChoose.equalsIgnoreCase("нет")) {
                 isAnswer = true;
